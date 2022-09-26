@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="container">
+    <h1 style="color: blue;">{{ .Title}}</h1>
+    <h2 style="color: green;">{{ .Params.Subtitulo}}</h2>
+    <hr>
+    {{ .Content }}
+    <hr>
+
+    <h3> Saludos desde {{ .Params.Ciudad}}</h3>
+</div>
+{{ end }}
